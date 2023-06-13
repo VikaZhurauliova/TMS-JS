@@ -1,5 +1,5 @@
-// import * as bootstrap from 'bootstrap';
+import 'bootstrap';
 import * as HOMEWORK from "./HOMEWORK";
-// import './style.css';
+import './style.scss';
 
 // HOMEWORK.VIKA_ZHURAULIOVA_HW_14()
