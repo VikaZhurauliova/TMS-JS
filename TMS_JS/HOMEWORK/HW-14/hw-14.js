@@ -19,17 +19,17 @@ export const timer = () => {
         const hw_14 = document.querySelector('#FOR_HOMEWORK');
         hw_14.innerHTML = `
          <div class="container">
-            <div class="row flex-column">
-              <div class="col">
+            <div class="row flex-column align-items-center wrap">
+              <div class="col-6">
                 <div class="d-flex justify-content-between">
-                  <button id="start">Start</button>
-                  <button id="stop">Stop</button>
-                  <button id="reset">Reset</button>
+                  <button id="start" class="btn btn-outline-primary">Start</button>
+                  <button id="stop" class="btn btn-outline-danger">Stop</button>
+                  <button  class = "btn btn-outline-success" id="reset">Reset</button>
                 </div>
               </div>
-              <div class="col">
-                <div>
-                  <h3 id='time'></h3>
+              <div class="col-6">
+                <div class="time-wrap text-center">
+                  <h2 id='time'></h2>
                 </div>
               </div>
             </div>
