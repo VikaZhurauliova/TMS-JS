@@ -1,0 +1,20 @@
+.todo-title {
+  padding: 15px 25px;
+  border: 1px solid aquamarine;
+}
+
+#wrap-app {
+  gap: 10px;
+}
+.first-line {
+  gap: 15px;
+  margin: 20px auto;
+
+  &-input {
+    height: 69px;
+  }
+}
+
+.btn {
+  color: white;
+}
